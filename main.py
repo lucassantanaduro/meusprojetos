@@ -33,3 +33,4 @@ def jogar():
 qtd_jogadores = escolher_qtd_jogadores()
 jogadores = adicionar_jogadores(qtd_jogadores)
 jogar()
+print()
