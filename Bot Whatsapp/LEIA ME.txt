@@ -1,0 +1,9 @@
+#Os numeros no arquivo telefones.txt devem estar formatado da seguinte maneira:
+#codigo do pais, por exemplo: 55
+#codigo postal, por exemplo: 11
+#numero de telefone com 9 digitos: 000000000
+#Da seguinte maneira:
+
+5511000000000
+5564999999999
+5547111111111
