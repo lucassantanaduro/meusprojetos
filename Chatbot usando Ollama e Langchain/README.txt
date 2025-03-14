@@ -1,0 +1,1 @@
+Para essa aplicação precisei instalar a LLM mistral da Ollama e os respectivos modulos no codigo
