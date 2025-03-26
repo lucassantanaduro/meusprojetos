@@ -39,6 +39,7 @@ def login():
 
 
 ############################Tabela Postagem############################
+
 @app.route('/postagens')
 @token_obrigatorio
 def obter_postagens(autor):

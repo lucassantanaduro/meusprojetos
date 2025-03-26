@@ -4,7 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 
 #criando um API flask
 app = Flask(__name__)
-app.config['SECRET_KEY']= 'alguembr123'
+app.config['SECRET_KEY']= '654321'
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db' #url do banco de dados
 #criando uma instancia de SQLAlchemy
 db = SQLAlchemy(app)
@@ -32,7 +32,7 @@ def inicializar_banco():
         db.drop_all()#exclui qualquer estrutura previa -de banco de dados- que possa existir
         db.create_all()
         #criar usuarios administradores
-        autor = Autor(nome='Lucas Sant Ana',email='lucas@gmail.com',senha='alguembr123',admin=True)
+        autor = Autor(nome='Lucas Santana',email='lucas@gmail.com',senha='123456',admin=True)
         db.session.add(autor)
         db.session.commit()    
 
